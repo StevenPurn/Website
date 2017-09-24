@@ -71,7 +71,7 @@ iframe{
 .portfolio {
   display: grid;
   height: 100%;
-  grid-template-rows: repeat(8, 1fr);
+  grid-template-rows: repeat(7, 1fr);
   grid-template-columns: repeat(5, 1fr);
   grid-gap: 10px;
   text-decoration: none;
@@ -182,7 +182,7 @@ input[type=text], select, textarea {
 
 input[type=submit] {
     font-family: 'Raleway', sans-serif;
-    background-color: #4CAF50;
+    background: #f96855;
     color: white;
     padding: 12px 20px;
     border: none;
@@ -190,12 +190,13 @@ input[type=submit] {
     cursor: pointer;
 }
 
-    input[type=submit]:hover {
-        background-color: #45a049;
-    }
+input[type=submit]:hover {
+    background: #f73a22;
+}
 
 .container {
     border-radius: 5px;
-    background-color: #f2f2f2;
+    background-color: #4f4f4f;
     padding: 20px;
+    margin-top: 20px;
 }
