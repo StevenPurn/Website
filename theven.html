@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Steven Purn | Theven</title>
+    <link rel="shortcut icon" href="TemplateData/favicon.ico">
+    <link rel="stylesheet" href="TemplateData/style.css">
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <script src="TemplateData/UnityProgress.js"></script>  
+    <script src="Build/UnityLoader.js"></script>
+    <script>
+      var gameInstance = UnityLoader.instantiate("gameContainer", "Build/9-20.json", {onProgress: UnityProgress});
+    </script>
+  </head>
+    <body>
+        <div class="sidebar">
+            <div class="logo">Steven<span class="bolded">Purn</span></div>
+            <nav>
+                <a href="index.html" class="nav-item">Home</a>
+                <a href="about.html" class="nav-item">About</a>
+                <a href="" class="nav-item active">Portfolio</a>
+                <a href="" class="nav-item">Contact</a>
+            </nav>
+        </div>
+        <div class="main-content">
+            <div>
+                <div class="game-window">
+                    <iframe src="/Games/Theven/index.html" style="border: none" height="600" width="980" scrolling="no" align="middle"></iframe>
+                </div>
+                <div class="game-description" style="margin-top: 45px">
+                    <a>Theven is a simple game that I came up with after having played Tak (inspired the game of the same name in Patrick Rothfuss's King Killer Chronicles). Tak is incredibly simple in its mechanics but has real strategic depth; if you haven't played it I highly recommend it. The basic idea was to try and replicate the depth but maintain or increase the simplicity.</a>
+                    <br />
+                    <br />
+                    <a>The basic rules are players alternate turns trying to capture each other's pieces. Each piece can only move diagonally one space or, once per game, two spaces. Pieces are captured when they are flanked.</a>
+                    <br />
+                    <br />
+                    <a>Obviously this game has a long way to go but I wanted to get an early build up to gather feedback. Currently on the to do list:</a>
+                    <div style="margin-left: 20px; margin-top: 20px">
+                        <ul>
+                            <li>Prevent moving into captures unless you would capture a piece at the end of your turn</li>
+                            <li>Test different starting setups and board sizes</li>
+                            <li>Add some more polish (improve menu, add animations, quick tutorial, etc.)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

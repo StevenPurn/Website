@@ -1,0 +1,126 @@
+﻿@import url('https://fonts.googleapis.com/css?family=Raleway:300,700');
+
+* { box-sizing: border-box; }
+
+body {
+  background: #353535;
+  color: #c4c4c4;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.5rem;
+  line-height: 1.45;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.sidebar {
+  background: #4f4f4f;
+  flex: 1 1 20%;
+  min-width: 200px;
+  padding: 1.5em;
+}
+
+.logo {
+  text-transform: uppercase;
+  margin-bottom: 1em;
+}
+
+.bolded {
+  font-weight: 700;
+}
+
+.nav-item.active{
+    color: #c4c4c4;
+}
+
+.nav-item {
+  color: #737373;
+  text-decoration: none;
+  font-size: 1.7rem;
+  display: inline-block;
+  margin-right: 1.2em;
+}
+
+.nav-item:hover{
+    color: #c4c4c4;
+}
+
+@media (min-width: 1500px) {
+    .nav-item{
+        display: block;
+        margin: 7vh 0;
+    }
+
+    .logo{
+        margin-bottom: 5em;
+    }
+}
+
+.main-content {
+  padding: 8%;
+  flex: 1 1 80%;
+  min-height: 100vh;
+}
+
+.portfolio {
+  display: grid;
+  height: 100%;
+  grid-template-rows: repeat(8, 1fr);
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 10px;
+}
+
+.portfolio-item {
+  background: #f96855;
+  color: white;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5em;
+  background-size: cover;
+  background-position: center;
+  transition: all ease-in-out 300ms;
+  position: relative;
+  z-index: 10;
+}
+  
+.portfolio-item.small {
+    grid-row: span 1;
+    grid-column: span 1;
+}
+  
+.portfolio-item.medium {
+    grid-row: span 2;
+    grid-column: span 2;
+}
+  
+.portfolio-item.large {
+    grid-row: span 3;
+    grid-column: span 3;
+}
+  
+.portfolio-item.tall {
+    grid-row: span 3;
+    grid-column: span 2;
+}
+  
+.portfolio-item.wide {
+    grid-row: span 2;
+    grid-column: span 3;
+}
+
+.two {
+  background-image: url('http://lh3.googleusercontent.com/9P3-WvcRERYalwFxuQhm6JNsI7F8QlDQCSARlINPh_q9qTmzl3Mt8rglJSiPhSg-7qw');
+  background-size: cover;
+  background-position: top left;
+}
+
+.portfolio:hover .portfolio-item{
+    opacity: 0.5;
+}
+
+.portfolio .portfolio-item:hover {
+    opacity: 1;
+    color: white;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.85);
+}
