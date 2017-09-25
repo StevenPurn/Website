@@ -19,6 +19,14 @@ body {
   padding: 1em;
 }
 
+a:link{
+    color: white;
+}
+
+a:visited{
+    color:white;
+}
+
 iframe{
     display:block;
     margin:auto;
@@ -34,11 +42,11 @@ iframe{
 }
 
 .nav-item.active{
-    color: #c4c4c4;
+    color: #c4c4c4 !important;
 }
 
 .nav-item {
-  color: #737373;
+  color: #737373 !important;
   text-decoration: none;
   font-size: 1.7rem;
   display: inline-block;
@@ -46,7 +54,7 @@ iframe{
 }
 
 .nav-item:hover{
-    color: #c4c4c4;
+    color: #c4c4c4 !important;
 }
 
 @media (min-width: 1500px) {
@@ -79,7 +87,7 @@ iframe{
 
 .portfolio-item {
     background: #f96855;
-    color: white;
+    color: white !important;
     font-weight: 700;
     display: flex;
     justify-content: center;
@@ -140,7 +148,6 @@ iframe{
     background-size: cover;
     background-position: top;
 }
-
 
 .portfolio:hover .portfolio-item{
     opacity: 0.3;
