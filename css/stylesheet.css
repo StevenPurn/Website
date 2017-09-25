@@ -208,13 +208,3 @@ input[type=submit]:hover {
     padding: 20px;
     margin-top: 20px;
 }
-
-a:link {
-    color: #c4c4c4;
-    font-family: 'Raleway', sans-serif;
-}
-
-a:visited {
-    color: #c4c4c4;
-    font-family: 'Raleway', sans-serif;
-}
