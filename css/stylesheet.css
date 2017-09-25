@@ -89,6 +89,7 @@ iframe{
     transition: all ease-in-out 300ms;
     position: relative;
     z-index: 10;
+    text-shadow: 2px 2px 10px black;
 }
   
 .portfolio-item.small {
@@ -129,10 +130,17 @@ iframe{
 }
 
 .one {
-    background-image: url('/Images/ChessBoard.jpg');
+    background-image: url('/Images/checkers_board.png');
     background-size: cover;
     background-position: top;
 }
+
+.six {
+    background-image: url('/Images/Hildas.png');
+    background-size: cover;
+    background-position: top;
+}
+
 
 .portfolio:hover .portfolio-item{
     opacity: 0.3;
@@ -141,7 +149,7 @@ iframe{
 .portfolio .portfolio-item:hover {
     opacity: 1;
     color: white;
-    text-shadow: 0 0 5px rgba(0, 0, 0, 0.85);
+    text-shadow: 2px 2px 10px black;
     background-position: center;
 }
 
@@ -199,4 +207,14 @@ input[type=submit]:hover {
     background-color: #4f4f4f;
     padding: 20px;
     margin-top: 20px;
+}
+
+a:link {
+    color: #c4c4c4;
+    font-family: 'Raleway', sans-serif;
+}
+
+a:visited {
+    color: #c4c4c4;
+    font-family: 'Raleway', sans-serif;
 }
