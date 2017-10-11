@@ -12,6 +12,7 @@ body {
     line-height: 1.45;
     display: flex;
     flex-wrap: wrap;
+    margin: 0px;
 }
 
 .sidebar {
