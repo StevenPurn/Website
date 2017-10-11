@@ -1,39 +1,37 @@
 ﻿@import url('https://fonts.googleapis.com/css?family=Raleway:300,700');
 
-* {
-    box-sizing: border-box;
-}
+* { box-sizing: border-box; }
 
 body {
-    background: #353535;
-    color: #c4c4c4;
-    font-family: 'Raleway', sans-serif;
-    font-size: 1.5rem;
-    line-height: 1.45;
-    display: flex;
-    flex-wrap: wrap;
+  background: #353535;
+  color: #c4c4c4;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.5rem;
+  line-height: 1.45;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .sidebar {
-    background: #4f4f4f;
-    width: 100%;
-    position: fixed;
-    top: 0;
-    padding: 1em;
-    z-index: 100;
+  background: #4f4f4f;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  padding: 1em;
+  z-index: 100;
 }
 
-a:link {
+a:link{
     color: white;
 }
 
-a:visited {
-    color: white;
+a:visited{
+    color:white;
 }
 
-iframe {
-    display: block;
-    margin: auto;
+iframe{
+    display:block;
+    margin:auto;
 }
 
 .logo {
@@ -44,24 +42,24 @@ iframe {
 }
 
 .bolded {
-    font-weight: 700;
+  font-weight: 700;
 }
 
-.nav-item.active {
+.nav-item.active{
     color: #c4c4c4 !important;
 }
 
 .nav-item {
-    color: #737373 !important;
-    text-decoration: none;
-    font-size: 1.7rem;
-    display: inline-block;
-    margin-right: 1.2em;
+  color: #737373 !important;
+  text-decoration: none;
+  font-size: 1.7rem;
+  display: inline-block;
+  margin-right: 1.2em;
 }
 
-    .nav-item:hover {
-        color: #c4c4c4 !important;
-    }
+.nav-item:hover{
+    color: #c4c4c4 !important;
+}
 /*
 @media (min-width: 1500px) {
     .nav-item{
@@ -75,21 +73,21 @@ iframe {
 }*/
 
 .main-content {
-    padding-top: 100px;
-    padding-bottom: 15px;
-    padding-left: 10%;
-    padding-right: 10%;
-    flex: 1 1 80%;
-    min-height: 100vh;
+  padding-top: 100px;
+  padding-bottom: 15px;
+  padding-left: 10%;
+  padding-right: 10%;
+  flex: 1 1 80%;
+  min-height: 100vh;
 }
 
 .portfolio {
-    display: grid;
-    height: 100%;
-    grid-template-rows: repeat(7, 1fr);
-    grid-template-columns: repeat(5, 1fr);
-    grid-gap: 10px;
-    text-decoration: none;
+  display: grid;
+  height: 100%;
+  grid-template-rows: repeat(7, 1fr);
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 10px;
+  text-decoration: none;
 }
 
 .portfolio-item {
@@ -106,36 +104,36 @@ iframe {
     z-index: 10;
     text-shadow: 2px 2px 10px black;
 }
-
-    .portfolio-item.small {
-        grid-row: span 1;
-        grid-column: span 1;
-    }
-
-    .portfolio-item.medium {
-        grid-row: span 2;
-        grid-column: span 2;
-    }
-
-    .portfolio-item.large {
-        grid-row: span 3;
-        grid-column: span 3;
-    }
-
-    .portfolio-item.tall {
-        grid-row: span 3;
-        grid-column: span 2;
-    }
-
-    .portfolio-item.wide {
-        grid-row: span 2;
-        grid-column: span 3;
-    }
+  
+.portfolio-item.small {
+    grid-row: span 1;
+    grid-column: span 1;
+}
+  
+.portfolio-item.medium {
+    grid-row: span 2;
+    grid-column: span 2;
+}
+  
+.portfolio-item.large {
+    grid-row: span 3;
+    grid-column: span 3;
+}
+  
+.portfolio-item.tall {
+    grid-row: span 3;
+    grid-column: span 2;
+}
+  
+.portfolio-item.wide {
+    grid-row: span 2;
+    grid-column: span 3;
+}
 
 .two {
-    background-image: url('http://lh3.googleusercontent.com/9P3-WvcRERYalwFxuQhm6JNsI7F8QlDQCSARlINPh_q9qTmzl3Mt8rglJSiPhSg-7qw');
-    background-size: cover;
-    background-position: top;
+  background-image: url('http://lh3.googleusercontent.com/9P3-WvcRERYalwFxuQhm6JNsI7F8QlDQCSARlINPh_q9qTmzl3Mt8rglJSiPhSg-7qw');
+  background-size: cover;
+  background-position: top;
 }
 
 .one {
@@ -168,7 +166,7 @@ iframe {
     background-position: top;
 }
 
-.portfolio:hover .portfolio-item {
+.portfolio:hover .portfolio-item{
     opacity: 0.3;
 }
 
@@ -188,7 +186,7 @@ iframe {
 }
 
 .game-window {
-    align-content: center;
+    align-content:center;
 }
 
 .game-description {
@@ -198,7 +196,7 @@ iframe {
     grid-row: span 1;
 }
 
-.portfolio a:link {
+.portfolio a:link{
     text-decoration: none !important;
 }
 
@@ -224,9 +222,9 @@ input[type=submit] {
     cursor: pointer;
 }
 
-    input[type=submit]:hover {
-        background: #f73a22;
-    }
+input[type=submit]:hover {
+    background: #f73a22;
+}
 
 .container {
     border-radius: 5px;
