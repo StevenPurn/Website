@@ -199,6 +199,10 @@ iframe {
     grid-row: span 1;
 }
 
+.image{
+    display: block;
+    margin: auto;
+}
 .portfolio a:link {
     text-decoration: none !important;
 }
