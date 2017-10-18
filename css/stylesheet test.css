@@ -136,6 +136,12 @@ iframe{
   background-position: top;
 }
 
+.three {
+    background-image: url('/images/Catcher.PNG');
+    background-size: cover;
+    background-position: top;
+}
+
 .one {
     background-image: url('/images/checkers_board.png');
     background-size: cover;
